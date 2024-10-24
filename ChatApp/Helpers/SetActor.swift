@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import ChatLayout
 
 public final class SetActor<Option : SetAlgebra, ReactionType> {
     public enum Action {

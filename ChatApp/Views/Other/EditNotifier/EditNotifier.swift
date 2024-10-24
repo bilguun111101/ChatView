@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import ChatLayout
 import UIKit
 
 final class EditNotifier {

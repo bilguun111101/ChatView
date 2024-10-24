@@ -10,8 +10,8 @@
 		2FAD64E62CC2299400C3C4CB /* DifferenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD64E52CC2299400C3C4CB /* DifferenceKit */; };
 		2FAD651A2CC2735400C3C4CB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD65192CC2735400C3C4CB /* SDWebImage */; };
 		2FAD651C2CC2735400C3C4CB /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD651B2CC2735400C3C4CB /* SDWebImageMapKit */; };
-		2FAD653A2CC2910400C3C4CB /* ChatLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD65392CC2910400C3C4CB /* ChatLayout */; };
-		2FAD653C2CC2910400C3C4CB /* ChatLayoutStatic in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD653B2CC2910400C3C4CB /* ChatLayoutStatic */; };
+		2FAD69A42CCA329200C3C4CB /* ChatLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD69A32CCA329200C3C4CB /* ChatLayout */; };
+		2FAD69A62CCA329200C3C4CB /* ChatLayoutStatic in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD69A52CCA329200C3C4CB /* ChatLayoutStatic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,10 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FAD653A2CC2910400C3C4CB /* ChatLayout in Frameworks */,
+				2FAD69A42CCA329200C3C4CB /* ChatLayout in Frameworks */,
 				2FAD64E62CC2299400C3C4CB /* DifferenceKit in Frameworks */,
 				2FAD651A2CC2735400C3C4CB /* SDWebImage in Frameworks */,
-				2FAD653C2CC2910400C3C4CB /* ChatLayoutStatic in Frameworks */,
+				2FAD69A62CCA329200C3C4CB /* ChatLayoutStatic in Frameworks */,
 				2FAD651C2CC2735400C3C4CB /* SDWebImageMapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +141,8 @@
 				2FAD64E52CC2299400C3C4CB /* DifferenceKit */,
 				2FAD65192CC2735400C3C4CB /* SDWebImage */,
 				2FAD651B2CC2735400C3C4CB /* SDWebImageMapKit */,
-				2FAD65392CC2910400C3C4CB /* ChatLayout */,
-				2FAD653B2CC2910400C3C4CB /* ChatLayoutStatic */,
+				2FAD69A32CCA329200C3C4CB /* ChatLayout */,
+				2FAD69A52CCA329200C3C4CB /* ChatLayoutStatic */,
 			);
 			productName = ChatApp;
 			productReference = 2F7B4F0D2CC20E230058D618 /* ChatApp.app */;
@@ -229,7 +229,7 @@
 			packageReferences = (
 				2FAD64E42CC2299400C3C4CB /* XCRemoteSwiftPackageReference "DifferenceKit" */,
 				2FAD65182CC2735400C3C4CB /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				2FAD65382CC2910400C3C4CB /* XCRemoteSwiftPackageReference "ChatLayout" */,
+				2FAD69A22CCA329200C3C4CB /* XCRemoteSwiftPackageReference "ChatLayout" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2F7B4F0E2CC20E230058D618 /* Products */;
@@ -606,7 +606,7 @@
 				minimumVersion = 5.19.7;
 			};
 		};
-		2FAD65382CC2910400C3C4CB /* XCRemoteSwiftPackageReference "ChatLayout" */ = {
+		2FAD69A22CCA329200C3C4CB /* XCRemoteSwiftPackageReference "ChatLayout" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ekazaev/ChatLayout.git";
 			requirement = {
@@ -632,14 +632,14 @@
 			package = 2FAD65182CC2735400C3C4CB /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
 		};
-		2FAD65392CC2910400C3C4CB /* ChatLayout */ = {
+		2FAD69A32CCA329200C3C4CB /* ChatLayout */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2FAD65382CC2910400C3C4CB /* XCRemoteSwiftPackageReference "ChatLayout" */;
+			package = 2FAD69A22CCA329200C3C4CB /* XCRemoteSwiftPackageReference "ChatLayout" */;
 			productName = ChatLayout;
 		};
-		2FAD653B2CC2910400C3C4CB /* ChatLayoutStatic */ = {
+		2FAD69A52CCA329200C3C4CB /* ChatLayoutStatic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2FAD65382CC2910400C3C4CB /* XCRemoteSwiftPackageReference "ChatLayout" */;
+			package = 2FAD69A22CCA329200C3C4CB /* XCRemoteSwiftPackageReference "ChatLayout" */;
 			productName = ChatLayoutStatic;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
 import SDWebImage
+import ChatLayout
 
 protocol AvatarViewDelegate : AnyObject {
     func avatarTapped()

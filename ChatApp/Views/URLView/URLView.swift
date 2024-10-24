@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import ChatLayout
 import LinkPresentation
+import ChatLayout
 import UIKit
 
 final class URLView: UIView, ContainerCollectionViewCellDelegate {

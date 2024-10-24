@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import ChatLayout
 
 final class BezierMaskedView<CustomView : UIView> : UIView {
     lazy var customView : CustomView = .init(frame: bounds)

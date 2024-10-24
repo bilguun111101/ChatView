@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
 
 protocol ChatCollectionDataSource : UICollectionViewDataSource, ChatLayoutDelegate {

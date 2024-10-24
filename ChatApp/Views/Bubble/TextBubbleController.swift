@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
+import ChatLayout
 
 final class TextBubbleController<CustomView : UIView> : BubbleController {
     private let type : MessagePosition

@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
+import ChatLayout
 
 final class EditingAccessoryView : UIView, StaticViewFactory {
     private lazy var button : UIButton = .init(type: .system)

@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import ChatLayout
 
 final class BezierBubbleController<CustomView : UIView> : BubbleController {
     private let controllerProxy : BubbleController

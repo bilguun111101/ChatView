@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
+import ChatLayout
 
 enum MessageStatus: Hashable {
     case sent

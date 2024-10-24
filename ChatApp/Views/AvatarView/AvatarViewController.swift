@@ -9,10 +9,6 @@ import Foundation
 import UIKit
 
 final class AvatarViewController {
-//    var image : UIImage? {
-//        UIImage()
-//    }
-    
     private let user : RawUser
     private let bubble : Cell.BubbleType
     

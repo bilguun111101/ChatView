@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import ChatLayout
+
 import DifferenceKit
 
 let enableSelfSizingSupport = false
@@ -110,9 +110,10 @@ final class ChatView : UIView {
             collectionView.topAnchor.constraint(equalTo: topAnchor, constant: 0),
             collectionView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0),
             collectionView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 0),
-            collectionView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 3.3)
+            collectionView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 3.6)
         ]
         NSLayoutConstraint.activate(constraints)
+//        collectionView.scrollsToTop = true
         collectionView.backgroundColor = .clear
         collectionView.showsHorizontalScrollIndicator = false
         

@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import ChatLayout
 
 protocol RandomDataProviderDelegate: AnyObject {
     func received(messages: [RawMessage])

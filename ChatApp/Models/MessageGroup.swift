@@ -7,6 +7,7 @@
 
 import Foundation
 import DifferenceKit
+import ChatLayout
 
 struct MessageGroup : Hashable {
     var _id : String

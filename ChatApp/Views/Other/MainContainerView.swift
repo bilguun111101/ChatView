@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
 
 final class MainContainerView<LeadingAccessory : StaticViewFactory, CustomView : UIView, TrailingAccessory : StaticViewFactory> : UIView, SwipeNotifierDelegate {

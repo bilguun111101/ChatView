@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
 import SDWebImage
+import ChatLayout
 
 final class PostMessageView : UIView, ContainerCollectionViewCellDelegate {
     private var viewPortWidth : CGFloat = 300

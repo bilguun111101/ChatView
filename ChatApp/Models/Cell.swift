@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
 import DifferenceKit
+import ChatLayout
 
 enum Cell : Hashable {
     enum BubbleType {

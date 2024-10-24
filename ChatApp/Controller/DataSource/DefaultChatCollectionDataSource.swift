@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
 
 typealias TextMessageCollectionCell = ContainerCollectionViewCell<MessageContainerView<EditingAccessoryView, MainContainerView<AvatarView, TextMessageView, StatusView>>>

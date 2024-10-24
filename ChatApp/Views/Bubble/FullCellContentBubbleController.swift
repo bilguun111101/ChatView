@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import ChatLayout
 import UIKit
+import ChatLayout
 
 final class FullCellContentBubbleController<CustomView : UIView> : BubbleController {
     weak var bubbleView : BezierMaskedView<CustomView>? {

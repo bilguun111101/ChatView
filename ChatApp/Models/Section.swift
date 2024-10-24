@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import ChatLayout
 import DifferenceKit
 
 struct Section : Hashable {

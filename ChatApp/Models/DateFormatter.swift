@@ -5,6 +5,7 @@
 //  Created by qq on 2024.10.18.
 //
 
+import ChatLayout
 import Foundation
 
 public final class ChatDateFormatter {

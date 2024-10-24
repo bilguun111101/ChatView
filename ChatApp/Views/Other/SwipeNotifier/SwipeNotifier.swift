@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import ChatLayout
 
 public protocol SwipeNotifierDelegate : AnyObject {
     var swipeCompletionRate : CGFloat { get set }
